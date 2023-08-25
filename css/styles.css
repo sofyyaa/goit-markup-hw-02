@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header-logo {
+    color: #4D5AE5;
+    Family: Roboto;
+    Weight: Bold;
+    Size: 56px;
+    Letter Spacing: 2%;
+    Line Height: 60px;
+    text-decoration: none;
+}
+
+.header-menu-link {
+    color: #2E2F42;
+    Family: Roboto;
+    Weight: Bold;
+    Size: 36px;
+    Letter Spacing: 2%;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: white;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line: height 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.hero-btn {
+    color: white;
+    font-family: Roboto;
+    sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+
+
+.advanges-list {}
+
+.advantages-item {}
+
+.advanges-subtitle {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.advantages-item-text {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.footer-title {
+    padding-top: 140px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+    padding-right: 120px;
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    padding-bottom: 17, 5px;
+}
+
+.btn-tittle {
+        color: var(--iris, #4D5AE5);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        margin-bottom: 72px;
+        cursor: pointer;
+       
+        
+}
+
+.portfolio-list {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.btn-tittle-tittle {
+    color: var(--white, #FFF);
+        text-align: center;
+    
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        margin-bottom: 72px;
+        background: var(--ocean, #404BBF)
+        
+}
+
+.list-list {
+        display: flex;
+        width: 360px;
+        height: 420px;
+        padding-bottom: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex-shrink: 0;
+        border: 1px solid var(--cornflower, #E7E9FC);
+        background: var(--white, #FFF);
+}
+ 
+        
