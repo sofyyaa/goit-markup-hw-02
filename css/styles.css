@@ -1,5 +1,23 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #434455
+    
+}
+:root {
+    color:#4D5AE5;
+    color: #404BBF;
+    color: #2E2F42;
+    color: #31D0AA;
+    color: #434455;
+    color: #8E8F99;
+    color: #E7E9FC;
+    color: #F4F4FD;
+    color: #2E2F42;
+    color: #2E2F42;
+    color: #FFFFFF;
+    color: #FCFCFC;
+
 }
 
 .link {
@@ -138,13 +156,9 @@ body {
 }
 
 .list-list {
-        display: flex;
         width: 360px;
         height: 420px;
         padding-bottom: 0px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 32px;
         flex-shrink: 0;
         border: 1px solid var(--cornflower, #E7E9FC);
         background: var(--white, #FFF);
