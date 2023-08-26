@@ -84,11 +84,11 @@ body {
 }
 
 
-.header-menu-link :hover {
+.header-menu-link:hover {
     color: #404bbf;
 }
 
-.header-menu-link :focus {
+.header-menu-link:focus {
     color: #404bbf;
 }
 
