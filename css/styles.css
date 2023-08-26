@@ -46,8 +46,13 @@ color: var(--iris, #4D5AE5);
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+   text-transform: uppercase;
 }
+
+.logo-tittle {
+ color: #2e2f42;
+}
+
 
 .header-menu-link link {
     color: var(--navyblue, #2E2F42);
@@ -106,7 +111,7 @@ color: var(--iris, #4D5AE5);
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line height: 1.07;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -116,7 +121,7 @@ color: var(--iris, #4D5AE5);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 15;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
     cursor: pointer;
@@ -168,7 +173,7 @@ background-color: #404BBF
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 12;
+        line-height: 1.2;
         letter-spacing: 0.02em;
 }
 
