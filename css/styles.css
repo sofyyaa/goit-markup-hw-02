@@ -84,20 +84,40 @@ body {
 
 
 .header-menu-item {
-    color: var(--slate, #434455);
+        color: #2e2f42;
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover {
+.header-menu-tittle {
+    color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+.header-menu-tittle:hover {
     color: #404bbf;
 }
 
-.header-menu-link:focus {
+.header-menu-tittle:focus {
+    color: #404bbf;
+}
+
+
+
+.header-menu-item:hover {
+    color: #404bbf;
+}
+
+.header-menu-item:focus {
     color: #404bbf;
 }
 
@@ -282,6 +302,17 @@ background-color: #404BBF
         background-color: #F4F4FD;
         
 }
+
+.btn-tittle-tittle:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.btn-tittle-tittle:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
 
 .list-list {
         width: 360px;
