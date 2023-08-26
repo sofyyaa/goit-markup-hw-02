@@ -210,17 +210,6 @@ background-color: #404BBF
     text-align: left;
 }
 
-.footer-title {
-    padding-top: 140px;
-    padding-bottom: 100px;
-    padding-left: 156px;
-    padding-right: 120px;
-    background-color: #2E2F42;
-}
-
-.footer-text {
-    padding-bottom: 17, 5px;
-}
 
 .footer-list {
     background-color: #2e2f42;
@@ -262,13 +251,11 @@ background-color: #404BBF
 .btn-tittle-tittle {
     color: var(--white, #FFF);
         text-align: center;
-    
-        /* Button Text */
-        font-family: Roboto;
+        font-family: Roboto,sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.04em;
         margin-bottom: 72px;
         background: var(--ocean, #404BBF)
