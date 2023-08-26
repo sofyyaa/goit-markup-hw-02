@@ -84,7 +84,7 @@ body {
 }
 
 
-.header-menu-titel  {
+.header-menu-tittle  {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
@@ -94,10 +94,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-.header-menu-titel:hover {
+.header-menu-tittle:hover {
     color:#404bbf ;
 } 
-.header-menu-titel:focus {
+.header-menu-tittle:focus {
     color: #404bbf;
 }
 
