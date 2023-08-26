@@ -38,23 +38,64 @@ body {
     overflow: hidden;
 }
 
-.header-logo {
-    color: #4D5AE5;
-    Family: Roboto;
-    Weight: Bold;
-    Size: 56px;
-    Letter Spacing: 2%;
-    Line Height: 60px;
-    text-decoration: none;
+.header-logo-link {
+color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.header-menu-link {
-    color: #2E2F42;
-    Family: Roboto;
-    Weight: Bold;
-    Size: 36px;
-    Letter Spacing: 2%;
+.header-menu-link link {
+    color: var(--navyblue, #2E2F42);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        
 }
+
+.header-menu-link link:hover {
+   color: #404bbf;
+}
+
+.header-menu-link link:focus{
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.span {
+    color: #2e2f42;
+}
+
+
+
+.header-menu-link {
+    color: var(--slate, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover {
+    color: #404bbf;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
 
 .hero {
     background-color: #2E2F42;
@@ -65,27 +106,84 @@ body {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line: height 1.07;
+    line height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
 
 .hero-btn {
     color: white;
-    font-family: Roboto;
-    sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 15;
     letter-spacing: 0.04em;
     text-align: left;
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+
+.hero-btn:hover {
+background-color: #404BBF
+}
+
+.hero-btn:focus {
+    background-color: #404BBF
 }
 
 
 
-.advanges-list {}
+.images-list {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
-.advantages-item {}
+
+.team-list {
+    background-color: #F4F4FD
+}
+
+.team-tittle {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+
+}
+
+.team-list-tittle {
+    background-color: #FFFFFF;
+}
+
+.tittle-tittle {
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 12;
+        letter-spacing: 0.02em;
+}
+
+.tittle-tittle-list {
+    color: var(--slate, #434455);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+
 
 .advanges-subtitle {
     color: #2E2F42;
@@ -117,6 +215,23 @@ body {
 
 .footer-text {
     padding-bottom: 17, 5px;
+}
+
+.footer-list {
+    background-color: #2e2f42;
+
+}
+
+.footer-logo {
+    color: var(--iris, #4D5AE5);
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 
 .btn-tittle {
@@ -163,5 +278,23 @@ body {
         border: 1px solid var(--cornflower, #E7E9FC);
         background: var(--white, #FFF);
 }
- 
-        
+
+.list {
+    list-style: none;
+}
+
+ .span-tittle {
+   color: #f4f4fd;
+ } 
+
+ .footer-title-list {
+    color: var(--cloud, #F4F4FD);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+ }
