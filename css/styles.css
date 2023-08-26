@@ -109,6 +109,23 @@ body {
     color: #404bbf;
 }
 
+.header-menu-titel {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-menu-titel:hover {
+    color: #404bbf;
+}
+
+.header-menu-titel:focus {
+    color: #404bbf;
+}
 
 .hero {
     background-color: #2E2F42;
@@ -217,6 +234,7 @@ background-color: #404BBF
     letter-spacing: 0.02em;
 
 }
+
 
 
 .advanges-subtitle {

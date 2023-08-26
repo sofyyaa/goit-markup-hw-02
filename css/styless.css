@@ -84,6 +84,27 @@ body {
 }
 
 
+.header-menu-titel  {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-menu-titel:hover {
+    color:#404bbf ;
+} 
+.header-menu-titel:focus {
+    color: #404bbf;
+}
+
+
+
+
+
 .header-menu-link:hover {
     color: #404bbf;
 }
