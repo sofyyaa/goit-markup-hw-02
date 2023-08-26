@@ -39,7 +39,7 @@ body {
 }
 
 .header-logo-link {
-color: var(--iris, #4D5AE5);
+    color: #4d5ae5;
     font-family: Raleway,sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -83,7 +83,7 @@ color: var(--iris, #4D5AE5);
 
 
 
-.header-menu-link {
+.header-menu-item {
     color: var(--slate, #434455);
         font-family: Roboto;
         font-size: 16px;
