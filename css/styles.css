@@ -54,7 +54,7 @@ body {
 }
 
 
-.header-menu-link link {
+.header-menu-link {
     color: var(--navyblue, #2E2F42);
         font-family: Roboto;
         font-size: 16px;
@@ -65,11 +65,30 @@ body {
         
 }
 
-.header-menu-link link:hover {
+.header-menu-tittle {
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+
+.header-menu-tittle:hover {
+    color: #404bbf;
+}
+
+.header-menu-tittle:focus {
+    color: #404bbf;
+}
+
+.header-menu-link :hover {
    color: #404bbf;
 }
 
-.header-menu-link link:focus{
+.header-menu-link :focus{
     color: #404bbf;
 }
 
