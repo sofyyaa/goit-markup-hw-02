@@ -101,6 +101,28 @@ body {
 
 
 
+.header-menu-menu:hover {
+    color: #404bbf;
+}
+
+.header-menu-menu:focus {
+    color: #404bbf;
+}
+
+
+.header-menu-menu {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+
 .header-menu-item:hover {
     color: #404bbf;
 }
@@ -110,13 +132,14 @@ body {
 }
 
 .header-menu-tittle{
-    color: #434455;
     font-family: Roboto;
+    color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+   
 }
 
 .header-menu-tittle:hover {
