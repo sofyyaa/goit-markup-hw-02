@@ -4,6 +4,7 @@ body {
     color: #434455
     
 }
+
 :root {
     color:#4D5AE5;
     color: #404BBF;
@@ -370,4 +371,101 @@ background-color: #404BBF
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+ }  
+
+
+
+ 
+
+
+
+
+ .header-menu-link link {
+     color: var(--navyblue, #2E2F42);
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+
  }
+
+ .portfolio-list {
+     padding-top: 96px;
+     padding-bottom: 120px;
+ }
+
+
+ .list {
+     list-style: none;
+ }
+
+
+ .btn-tittle-tittle {
+     color: var(--white, #FFF);
+     text-align: center;
+     font-family: Roboto, sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     margin-bottom: 72px;
+     background: var(--ocean, #404BBF)
+ }
+
+
+ .header-menu-link {
+     color: var(--navyblue, #2E2F42);
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+
+ }
+
+
+ .header-menu-tittle {
+     color: #434455;
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+ }
+
+ .header-menu-tittle:hover {
+     color: #404bbf;
+ }
+
+ .header-menu-tittle:focus {
+     color: #404bbf;
+ }
+
+
+
+
+
+ .header-menu-link:hover {
+     color: #404bbf;
+ }
+
+ .header-menu-link:focus {
+     color: #404bbf;
+ }
+
+ 
+
+
+
+
+
+
+
+
+ 
+ 
