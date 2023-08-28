@@ -4,21 +4,13 @@ body {
     color: #434455
     
 }
-
 :root {
-    color:#4D5AE5;
-    color: #404BBF;
-    color: #2E2F42;
-    color: #31D0AA;
-    color: #434455;
-    color: #8E8F99;
-    color: #E7E9FC;
-    color: #F4F4FD;
-    color: #2E2F42;
-    color: #2E2F42;
-    color: #FFFFFF;
-    color: #FCFCFC;
-
+    --navyblue:#2e2f42;
+    --iris:#4d5ae5;
+    --slate:#434455;
+    --white:#fff;
+    --ocean:#404bbf;
+    --cloud:#f4f4fd;
 }
 
 .link {
