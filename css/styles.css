@@ -47,7 +47,6 @@ body {
 
 .header-menu-link {
         color: var(--navyblue, #2E2F42);
-        font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -81,7 +80,6 @@ body {
 
 .header-menu-item {
         color:#434455;
-        font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -103,7 +101,6 @@ body {
 
 .header-menu-menu {
     color: #434455;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -123,7 +120,6 @@ body {
 }
 
 .header-menu-tittle{
-    font-family: Roboto;
     color: #434455;
     font-size: 16px;
     font-style: normal;
@@ -147,7 +143,6 @@ body {
 
 .hero-title {
     color: white;
-    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -157,7 +152,6 @@ body {
 
 .hero-btn {
     color: white;
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -219,7 +213,7 @@ background-color: #404BBF
 .tittle-tittle-list {
     color: var(--slate, #434455);
         text-align: center;
-        font-family: Roboto;
+      
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -229,7 +223,7 @@ background-color: #404BBF
 
 .pay-list {
     color: var(--navyblue, #2E2F42);
-        font-family: Roboto;
+       
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -240,7 +234,6 @@ background-color: #404BBF
 
 .pay-tittle {
     color: var(--slate, #434455);
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -253,20 +246,18 @@ background-color: #404BBF
 
 .advanges-subtitle {
     color: #2E2F42;
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
 }
 
 .advantages-item-text {
     color: #434455;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
 }
@@ -291,13 +282,11 @@ background-color: #404BBF
 .btn-tittle {
         color: var(--iris, #4D5AE5);
         text-align: center;
-        font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        margin-bottom: 72px;
         cursor: pointer;
        
         
@@ -311,13 +300,11 @@ background-color: #404BBF
 .btn-tittle-tittle {
         color: #4d5ae5;
         text-align: center;
-        font-family: Roboto,sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        margin-bottom: 72px;
         cursor: pointer;
         background-color: #F4F4FD;
         
@@ -353,9 +340,7 @@ background-color: #404BBF
 
  .footer-title-list {
     color: var(--cloud, #F4F4FD);
-    
-        /* Body */
-        font-family: Roboto;
+
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -372,7 +357,6 @@ background-color: #404BBF
 
  .header-menu-link link {
      color: var(--navyblue, #2E2F42);
-     font-family: Roboto;
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
@@ -396,7 +380,6 @@ background-color: #404BBF
 
  .header-menu-link {
      color: var(--navyblue, #2E2F42);
-     font-family: Roboto;
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
@@ -408,7 +391,6 @@ background-color: #404BBF
 
  .header-menu-tittle {
      color: #434455;
-     font-family: Roboto;
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
